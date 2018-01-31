@@ -1,0 +1,40 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+div#game {
+    position: absolute;
+    top: 30px;
+    border: 1px solid white;
+
+    /* holds 36 tiles */
+    height: 1080px;
+
+    /* holds 64 tiles */
+    width: 1920px;
+
+    background-color: blue;
+}
+
+grasstile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    display: inline-block;
+}
+
+div#player {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
