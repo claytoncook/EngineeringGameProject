@@ -1,0 +1,152 @@
+var start = [
+  [{
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }],
+  [{
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }],
+  [{
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }],
+  [{
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }],
+  [{
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }],
+  [{
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }, {
+    tile: 'grass',
+    walk: true,
+    teleport: false
+  }],
+];
