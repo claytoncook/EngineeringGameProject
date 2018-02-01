@@ -2,27 +2,8 @@
 var $tileContainer = document.querySelector('div#tile-container'),
     $player = document.querySelector('div#player');
 
-var grassTile = function (x, y) {
-    this.x = x;
-    this.y = y;
-    var newGrassTile = document.createElement('grasstile');
-    $tileContainer.appendChild(newGrassTile);
-    newGrassTile.style.left = x + 'px';
-    newGrassTile.style.top = y + 'px';
-}
+//will hold all tile sets
+var world = [];
 
-function createTileMap() {
-    var x = 0;
-    var y = 0;
-    for (i = 0; i < 2304; i++) {
-        new grassTile(x, y);
-        x += 30;
-        if (x > 1890) {
-            x = 0;
-            y += 30;
-        }
-        console.log(x, y);
-    }
-}
-
+//creates the map using genWorld.js
 createTileMap();
