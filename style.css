@@ -30,6 +30,8 @@ div#player {
     width: 20px;
     background-color: red;
     display: inline-block;
+    transition-property: top, left;
+    transition-duration: 0.2s;
 }
 
 div#tile-container { 

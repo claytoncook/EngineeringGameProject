@@ -1,19 +1,13 @@
-//make height and width of tiles
-var tileHeight;
-var tileWidth;
-
-tileHeight = tileWidth = 30;
-
 //decides wehter a tile is a water tile or a grass tile
 var randomTile = function () {
     //finds a random number between 0 and 1
     var random = Math.random();
 
-    if (random <= 0.2) {
+    if (random <= 0.1) {
         //if the random number at the top is less than or equal to 0.2 
         //make said tile a water tile
         return "watertile"
-    } else if (random > 0.2) {
+    } else if (random > 0.1) {
         //if the random number at the top is more than 0.2
         //make said tile a grass tile
         return "grasstile"
