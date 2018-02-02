@@ -24,11 +24,11 @@ div#game {
 
 div#player {
     position: absolute;
-    left: 10px;
-    top: 10px;
-    height: 20px;
-    width: 20px;
-    background-color: red;
+    left: 30px;
+    top: 30px;
+    height: 30px;
+    width: 30px;
+    background-image: url('images/player.png');
     display: inline-block;
     transition-property: top, left;
     transition-duration: 0.2s;
@@ -47,9 +47,9 @@ grasstile {
     position: absolute;
     top: 0px;
     left: 0px;
+    background-image: url('images/floor.png');
     height: 30px;
     width: 30px;
-    background-color: green;
     display: inline-block;
 }
 
@@ -59,6 +59,6 @@ watertile {
     left: 0px;
     height: 30px;
     width: 30px;
-    background-color: blue;
+    background-color: rgb(58, 65, 73);
     display: inline-block;
 }

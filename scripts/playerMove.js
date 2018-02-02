@@ -13,10 +13,8 @@ function move() {
             //right
             player.x += player.speed;
         }
-        
+
         $player.style.top = player.y + 'px';
         $player.style.left = player.x + 'px';
     })
 }
-
-move();
