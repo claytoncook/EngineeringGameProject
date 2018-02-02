@@ -30,6 +30,7 @@ var tile = function (name, x, y) {
 
 //places the tiles so that it fills the tile container
 function createTileMap() {
+    spawnPlayer();
     //variables that hold the coordinates of the tile so they can be used in the for loop
     var x = 0;
     var y = 0;

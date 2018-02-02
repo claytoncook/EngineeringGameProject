@@ -11,5 +11,5 @@ var $player = document.querySelector('div#player');
 var player = {
     x: 10,
     y: 10,
-    speed: 20
+    speed: 30
 }

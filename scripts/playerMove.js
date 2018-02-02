@@ -14,6 +14,8 @@ function move() {
             player.x += player.speed;
         }
 
+        collide(player.x, player.y);
+
         $player.style.top = player.y + 'px';
         $player.style.left = player.x + 'px';
     })

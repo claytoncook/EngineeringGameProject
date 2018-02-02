@@ -2,6 +2,5 @@
 var world = [];
 
 //creates the map using genWorld.js
-centerPlayer();
 createTileMap();
 move();

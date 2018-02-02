@@ -1,4 +1,7 @@
-var centerPlayer = function () {
-player.x = window.innerWidth / 2;
-player.y = window.innerHeight / 2;
+var spawnPlayer = function () {
+player.x = 3;
+player.y = 5;
+
+$player.style.top = player.y + 'px';
+$player.style.left = player.x + 'px';
 }
