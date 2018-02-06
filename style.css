@@ -44,7 +44,7 @@ zombie {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: green;
+    background-image: url('images/zombie.png');
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -54,7 +54,7 @@ skeleton {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: white;
+    background-image: url('images/skeleton.png');
     height: 30px;
     width: 30px;
     display: inline-block;

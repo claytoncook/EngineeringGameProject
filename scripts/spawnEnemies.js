@@ -15,6 +15,10 @@ function spawnEnemies() {
     }
 
     for(i = 0; i < 5; i++) {
-        new enemy(randomEnemy(), Math.round(Math.random() * 10), Math.round(Math.random() * 10))
+        var min = Math.ceil(0);
+        var max = Math.floor(36);
+        var randomX = Math.floor(Math.random() * (max - min + 1)) * 30;
+        var randomY = Math.floor(Math.random() * (max - min + 1)) * 30;
+        new enemy(randomEnemy(), randomX, randomY);
     }
 }
