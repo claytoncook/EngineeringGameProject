@@ -7,4 +7,5 @@ $game.style.height = game.height + 'px';
 
 //creates the map using genWorld.js
 createTileMap();
+spawnEnemies();
 move();

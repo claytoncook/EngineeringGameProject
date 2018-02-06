@@ -11,3 +11,14 @@ var tile = function (name, x, y) {
     newTile.style.left = x + 'px';
     newTile.style.top = y + 'px';
 }
+
+var enemy = function(type, x, y) {
+    this.x = x;
+    this.y = y;
+
+    var newEnemy = document.createElement(type);
+    $game.appendChild(newEnemy);
+
+    newEnemy.style.left = x + 'px';
+    newEnemy.style.top = y + 'px';
+}
