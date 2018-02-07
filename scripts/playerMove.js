@@ -9,9 +9,11 @@ function move() {
         } else if (event.keyCode === 65) {
             //left
             player.x -= player.speed;
+            $player.style.backgroundImage = "url('images/player/playerLeft.png')";
         } else if (event.keyCode === 68) {
             //right
             player.x += player.speed;
+            $player.style.backgroundImage = "url('images/player/playerRight.png')";
         }
 
         collide(player.x, player.y);

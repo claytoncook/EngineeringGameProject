@@ -33,7 +33,7 @@ div#player {
     top: 30px;
     height: 30px;
     width: 30px;
-    background-image: url('images/player.png');
+    background-image: url('images/player/playerLeft.png');
     display: inline-block;
     transition-property: top, left;
     transition-duration: 0.2s;
@@ -44,7 +44,7 @@ zombie {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url('images/zombie.png');
+    background-image: url('images/enemies/zombie.png');
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -54,7 +54,7 @@ skeleton {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url('images/skeleton.png');
+    background-image: url('images/enemies/skeleton.png');
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -69,7 +69,7 @@ grasstile {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url('images/floor.png');
+    background-image: url('images/tiles/floor.png');
     height: 30px;
     width: 30px;
     display: inline-block;

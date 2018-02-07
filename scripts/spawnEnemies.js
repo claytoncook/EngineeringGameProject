@@ -14,7 +14,7 @@ function spawnEnemies() {
         }
     }
 
-    for(i = 0; i < 5; i++) {
+    for(i = 0; i < 10; i++) {
         var minX = Math.ceil(0);
         var maxX = Math.floor(63);
         var minY = Math.ceil(0);
