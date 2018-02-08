@@ -1,5 +1,4 @@
 function move() {
-    window.addEventListener('keydown', function (event) {
         if (event.keyCode === 87) {
             //up
             player.y -= player.speed;
@@ -9,16 +8,15 @@ function move() {
         } else if (event.keyCode === 65) {
             //left
             player.x -= player.speed;
-            $player.style.backgroundImage = "url('images/player/playerLeft.png')";
+            $player.style.backgroundImage = "url('images/player/player-left.png')";
         } else if (event.keyCode === 68) {
             //right
             player.x += player.speed;
-            $player.style.backgroundImage = "url('images/player/playerRight.png')";
+            $player.style.backgroundImage = "url('images/player/player-right.png')";
         }
 
         collide(player.x, player.y);
 
         $player.style.top = player.y + 'px';
         $player.style.left = player.x + 'px';
-    })
 }
