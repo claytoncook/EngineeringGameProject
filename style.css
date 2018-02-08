@@ -81,6 +81,6 @@ watertile {
     left: 0px;
     height: 30px;
     width: 30px;
-    background-color: rgb(58, 65, 73);
+    background-image: url('images/tiles/wall.png');
     display: inline-block;
 }
