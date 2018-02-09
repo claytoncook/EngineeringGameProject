@@ -26,6 +26,17 @@ div#tile-container {
     background-color: brown;
 }
 
+div#fov {
+    top: -2535px;
+    left: -2535px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2500px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
 /* player style */
 div#player {
     position: absolute;
@@ -81,6 +92,6 @@ watertile {
     left: 0px;
     height: 30px;
     width: 30px;
-    background-image: url('images/tiles/wall.png');
+    background-color: darkgray;
     display: inline-block;
 }

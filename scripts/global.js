@@ -14,7 +14,8 @@ var game = {
 }
 
 //player variables
-var $player = document.querySelector('div#player');
+var $player = document.querySelector('div#player'),
+    $fov = document.querySelector('div#fov');
 var player = {
     height: 30,
     width: 30,

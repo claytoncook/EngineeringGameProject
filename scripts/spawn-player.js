@@ -4,4 +4,6 @@ player.y = 0;
 
 $player.style.top = player.y + 'px';
 $player.style.left = player.x + 'px';
+
+$player.appendChild($fov);
 }
