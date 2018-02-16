@@ -57,6 +57,13 @@ div#heart-container {
     left: 10px;
 }
 
+div.single-heart-container {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    padding: 2px;
+}
+
 @keyframes beat {
     0% {height: 20px; width: 20px;}
     50% {height: 10px; width: 10px;}

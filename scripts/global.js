@@ -23,3 +23,8 @@ var player = {
     y: 10,
     speed: 30
 }
+
+//bottom menu and stats
+var $heartContainer = document.querySelector('div#heart-container'),
+    $singleHeartContainer = document.querySelector('div.single-heart-container'),
+    $heart = document.querySelector('div.heart');
