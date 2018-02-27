@@ -17,7 +17,7 @@ var enemy = function(type, x, y) {
     this.y = y;
 
     var newEnemy = document.createElement(type);
-    $game.appendChild(newEnemy);
+    $enemyContainer.appendChild(newEnemy);
 
     newEnemy.style.left = x + 'px';
     newEnemy.style.top = y + 'px';

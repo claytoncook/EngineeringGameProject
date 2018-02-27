@@ -14,9 +14,12 @@
     <div id="window">
         <div id="game">
             <div id="tile-container"></div>
-            <div id="player"></div>
-            <div id="fov"></div>
-            <div id="stat-hearts">
+            <div id="player-container">
+                <div id="player"></div>
+                <div id="fov"></div>
+                <div id="stat-hearts">
+                </div>
+                <div id="enemy-container"></div>
             </div>
         </div>
     </div>
@@ -28,7 +31,7 @@
     <script src="scripts/spawn-player.js"></script>
     <script src="scripts/spawn-enemies.js"></script>
     <script src="scripts/collide.js"></script>
-    <script src="scripts/player-move.js"></script>
+    <script src="scripts/move-entity.js"></script>
     <!-- main script -->
     <script src="app.js"></script>
 </body>

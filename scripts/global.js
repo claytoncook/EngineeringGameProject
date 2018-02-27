@@ -1,6 +1,7 @@
 //cache elements
 var $game = document.querySelector('div#game'),
-    $tileContainer = document.querySelector('div#tile-container');
+    $tileContainer = document.querySelector('div#tile-container'),
+    $enemyContainer = document.querySelector('div#enemy-container');
 
 //make height and width of tiles
 var tileHeight;
