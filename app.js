@@ -15,4 +15,4 @@ var dev = function(boolean) {
     }
 }
 
-dev(false);
+dev(true);

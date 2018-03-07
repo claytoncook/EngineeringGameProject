@@ -90,7 +90,7 @@ div#stat-hearts {
 div#inventory {
     height: 0px;
     width: 1920px;
-    background-color: blue;
+    background-color: grey;
     visibility: visible;
 }
 
