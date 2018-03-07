@@ -64,7 +64,7 @@ div#stat-hearts {
     position: center center;
     display: inline-block;
     background-color: red;
-    margin-left: 2px;
+    margin-left: 5px;
   }
   
   heart:first-child {
@@ -85,6 +85,14 @@ div#stat-hearts {
         max-width: 10px;
     }
   }
+
+/* inventory style */
+div#inventory {
+    height: 0px;
+    width: 1920px;
+    background-color: blue;
+    visibility: visible;
+}
 
 /* enemy styles */
 zombie {
@@ -129,5 +137,15 @@ watertile {
     height: 30px;
     width: 30px;
     background-color: grey;
+    display: inline-block;
+}
+
+chesttile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: brown;
     display: inline-block;
 }

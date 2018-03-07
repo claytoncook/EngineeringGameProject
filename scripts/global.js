@@ -1,5 +1,6 @@
 //cache elements
 var $game = document.querySelector('div#game'),
+    $inventory = document.querySelector('div#inventory'),
     $tileContainer = document.querySelector('div#tile-container'),
     $enemyContainer = document.querySelector('div#enemy-container');
 

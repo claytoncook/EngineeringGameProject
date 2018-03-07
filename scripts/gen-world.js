@@ -4,14 +4,16 @@ function createTileMap() {
         //finds a random number between 0 and 1
         var random = Math.random();
 
-        if (random <= 0.1) {
+        if (random <= 0.2) {
             //if the random number at the top is less than or equal to 0.2 
             //make said tile a water tile
             return "watertile"
-        } else if (random > 0.1) {
+        } else if (0.2 < random <= 0.6) {
             //if the random number at the top is more than 0.2
             //make said tile a grass tile
             return "grasstile"
+        } else if (0.6 < random <= 1) {
+            return "chesttile"
         }
     }
 

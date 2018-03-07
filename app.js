@@ -8,11 +8,6 @@ $game.style.height = game.height + 'px';
 createTileMap();
 spawnEnemies();
 
-//event listener to move player around using w,a,s,d keys
-window.addEventListener('keydown', function (event) {
-    movePlayer()
-});
-
 //dev option
 var dev = function(boolean) {
     if (boolean === false) {
