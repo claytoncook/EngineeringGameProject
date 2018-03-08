@@ -4,16 +4,14 @@ function createTileMap() {
         //finds a random number between 0 and 1
         var random = Math.random();
 
-        if (random <= 0.2) {
+        if (random < 0.2) {
             //if the random number at the top is less than or equal to 0.2 
             //make said tile a water tile
             return "watertile"
-        } else if (0.2 < random <= 0.6) {
+        } else if (random >= 0.2) {
             //if the random number at the top is more than 0.2
             //make said tile a grass tile
             return "grasstile"
-        } else if (0.6 < random <= 1) {
-            return "chesttile"
         }
     }
 
@@ -22,10 +20,20 @@ function createTileMap() {
     //variables that hold the coordinates of the tile so they can be used in the for loop
     var x = 0;
     var y = 0;
+
+    var player = 1,
+        enemies = 1000;
+
     for (i = 0; i < 2304; i++) {
+        var randomTileHolder = randomTile();
+        var random = Math.random();
         //make new tile using constructor function
         //uses the randomTile() function to determine what kind of tile will be placed
-        new tile(randomTile(), x, y);
+        new tile(randomTileHolder, x, y);
+        if (randomTileHolder === "grasstile" && enemies > 0 && random < 0.2) {
+            new enemy(randomEnemy(), x, y)
+            enemies -= 1;
+        }
         x += tileWidth;
         if (x > 1890) {
             //if the a tile's x goes off the screen
