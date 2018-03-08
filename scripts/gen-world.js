@@ -15,24 +15,27 @@ function createTileMap() {
         }
     }
 
-    spawnPlayer();
-
     //variables that hold the coordinates of the tile so they can be used in the for loop
     var x = 0;
     var y = 0;
 
     var player = 1,
-        enemies = 1000;
+        enemies = 10;
 
     for (i = 0; i < 2304; i++) {
+        //holds a string, which refers back to a tile type, that is then used throughout this whole function
         var randomTileHolder = randomTile();
         var random = Math.random();
         //make new tile using constructor function
         //uses the randomTile() function to determine what kind of tile will be placed
         new tile(randomTileHolder, x, y);
-        if (randomTileHolder === "grasstile" && enemies > 0 && random < 0.2) {
+        if (randomTileHolder === "grasstile" && enemies > 0 && random < 0.1) {
             new enemy(randomEnemy(), x, y)
             enemies -= 1;
+        } 
+        if (randomTileHolder === "grasstile" && player > 0 && random < 0.02) {
+            spawnPlayer(x, y)
+            player -= 1;
         }
         x += tileWidth;
         if (x > 1890) {

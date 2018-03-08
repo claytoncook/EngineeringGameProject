@@ -1,7 +1,7 @@
-var spawnPlayer = function () {
+var spawnPlayer = function (x, y) {
     //center player's position
-player.x = 0;
-player.y = 0;
+player.x = x;
+player.y = y;
 
 $player.style.top = player.y + 'px';
 $player.style.left = player.x + 'px';
