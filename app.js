@@ -8,9 +8,10 @@ $game.style.height = game.height + 'px';
 createTileMap();
 
 //dev option
-var dev = function(boolean) {
+function dev(boolean) {
     if (boolean === false) {
         $fov.style.opacity = 0.1;
+        player.speed = 60;
     }
 }
 

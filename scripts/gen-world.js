@@ -20,7 +20,7 @@ function createTileMap() {
     var y = 0;
 
     var player = 1,
-        enemies = 10;
+        enemies = 100;
 
     for (i = 0; i < 2304; i++) {
         //holds a string, which refers back to a tile type, that is then used throughout this whole function
@@ -29,7 +29,7 @@ function createTileMap() {
         //make new tile using constructor function
         //uses the randomTile() function to determine what kind of tile will be placed
         new tile(randomTileHolder, x, y);
-        if (randomTileHolder === "grasstile" && enemies > 0 && random < 0.1) {
+        if (randomTileHolder === "grasstile" && enemies > 0 && random < 0.01) {
             new enemy(randomEnemy(), x, y)
             enemies -= 1;
         } 
