@@ -1,68 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Game</title>
+    <title>Engineering Game</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/world.css" />
+    <link rel="stylesheet" href="css/player.css" />
+    <link rel="stylesheet" href="css/enemies.css" />
 </head>
-
 <body>
-    <!-- main game -->
-    <div id="window">
-        <div id="inventory">
-            <div id="item-area">
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                </br>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-                <div class="item-slot"></div>
-            </div>
-            <div id="equipment">
-            </div>
-        </div>
-        <div id="game">
-            <div id="tile-container"></div>
-            <div id="player-container">
-                <div id="player"></div>
-                <div id="fov"></div>
-                <div id="stat-hearts">
-                </div>
-                <div id="enemy-container"></div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- script(s) -->
-    <script src="scripts/global.js"></script>
-    <script src="scripts/spawn-enemies.js"></script>
-    <script src="scripts/constructor.js"></script>
-    <script src="scripts/gen-world.js"></script>
-    <script src="scripts/spawn-player.js"></script>
-    <script src="scripts/inventory.js"></script>
-    <script src="scripts/collide.js"></script>
-    <script src="scripts/move-entity.js"></script>
-    <script src="scripts/controls.js"></script>
-    <!-- main script -->
-    <script src="app.js"></script>
+    <div id="game-container"></div>
+    <script src="js/config.js"></script>
+    <script src="js/constructors/enemy.js"></script>
+    <script src="js/constructors/tile.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/init.js"></script>
 </body>
-
 </html>
