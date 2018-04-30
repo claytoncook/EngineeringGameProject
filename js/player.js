@@ -43,6 +43,7 @@ var player = {
                 if (event.keyCode === 37) player.element().style.backgroundImage = 'url(images/player-left.png)';
                 else if (event.keyCode === 39) player.element().style.backgroundImage = 'url(images/player-right.png)';
             }
+            console.log(location)
         }
     }
 }
